@@ -73,7 +73,7 @@ function love.mousemoved(x,y,dx,dy,istouch)
 end
 
 --allows us to reshape the window
---we have to make sure virtual ration gets updated
+--we have to make sure virtual ratio gets updated
 function love.resize(w,h)
     push:resize(w,h)
     VIRTUAL_RATIO = h/VIRTUAL_HEIGHT
